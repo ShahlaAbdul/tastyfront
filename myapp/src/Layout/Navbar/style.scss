@@ -1,0 +1,39 @@
+nav{
+    max-width: 100%;
+min-height: 30px;
+background-color: transparent;
+// position: relative;
+// position: fixed;
+
+.navbar{
+// z-index: 2;
+// position: absolute;
+    padding: 30px 0px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+    .navbar_left{
+        font-size: 30px;
+        font-weight: bold;
+        border: 1px solid rgb(10, 8, 8);
+        min-width: 140px;
+        padding: 4px;
+        color: #110b0b;
+    }
+    .navbar_right ul{
+        width: 60%;
+        gap: 20px;
+        display: flex;
+        justify-content: space-between;
+        .page{
+            color: #080505;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}}
